@@ -44,7 +44,7 @@ const data = [
 
 const Hero = () => {
   return (
-    <section style={backgroundBG} className='bg-no-repeat bg-cover relative'>
+    <section style={backgroundBG} className='bg-no-repeat bg-cover relative mb-[px]'>
        <div className='bg-black/50 pt-[250px]  md:pt-[235px] pb-[130px] '>
        <div className="container ">
             <div className='max-w-[860px] mx-auto py-[10px] md:px-[65px] text-center '>
