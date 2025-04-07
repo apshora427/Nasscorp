@@ -6,6 +6,7 @@ import Hero from '../components/Hero'
 import Navbar from '../components/Navbar'
 import TeamCard from '../components/TeamCard'
 import VideoPlay from '../components/VideoPlay'
+import Footer from '../components/Footer'
 
 const Home = () => {
   return (
@@ -17,6 +18,7 @@ const Home = () => {
          <ClientCard/>
          <TeamCard/>
          <ContactCard/>
+         <Footer/>
     </div>
   )
 }
