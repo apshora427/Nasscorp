@@ -3,7 +3,7 @@ import ContactFrom from './ContactFrom'
 
 const ContactCard = () => {
     return (
-        <section className='bg-dark-background-color pt-[130px] pb-[40px]'>
+        <section className='bg-dark-background-color pt-[130px] '>
             <div className="container">
                 <div className='grid grid-cols-1 gap-[80px]'>
                     <div className='w-[335px] mx-auto'>
@@ -14,8 +14,8 @@ const ContactCard = () => {
                         <img className='w-[400px] mx-auto' src={map} alt="" />
                     </div>
                 </div>
-                <ContactFrom/>
             </div>
+            <ContactFrom/>
         </section>
     )
 }
