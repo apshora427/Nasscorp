@@ -1,6 +1,8 @@
-import video from "../assets/VideoPlay.png";
+
 import v1 from "../assets/videoImage1.png";
 import v2 from "../assets/videoImage2.png"
+import video from "../assets/video.png"
+import button from "../assets/button.png"
 
 
 const info = [
@@ -32,8 +34,22 @@ const VideoPlay = () => {
                         </p>
                     </div>
                     <div className="grid grid-cols-1 md:grid-cols-[400px_auto] lg:grid-cols-[500px_auto] justify-center items-center gap-0 md:gap-[50px] lg:gap-[102px]">
-                        <div className=" mx-auto mb-[52px]">
+                        <div className=" mx-auto mb-[52px] relative">
                             <img className="w-[333px] lg:w-[500px] md:h-[450px] lg:h-[400px] object-cover" src={video} alt="" />
+                            <div className="absolute top-[50%] left-[50%] translate-[-50%] size-[98px]">
+                                {/* <img src={button} alt="" /> */}
+                                <button className="button is-play cursor-pointer" href="#">
+                                    <div className="button-outer-circle has-scale-animation"></div>
+                                    <div className="button-outer-circle has-scale-animation has-delay-short"></div>
+                                    <div className="button-icon is-play">
+                                        <svg height="100%" width="100%" fill="#fff" viewBox="0 0 35 35">
+                                            <polygon className="triangle" points="5,0 30,15 5,30" />
+                                            <path className="path" d="M5,0 L30,15 L5,30z" fill="none" stroke="black" strokeWidth="1" />
+                                        </svg>
+                                    </div>
+                                </button>
+
+                            </div>
                         </div>
                         <div>
                             <div className="flex flex-col justify-center items-center">

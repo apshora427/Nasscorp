@@ -8,15 +8,15 @@ const Footer = () => {
     return (
         <footer className='mt-[80px] lg:mt-[420px] bg-[#fafafa] pt-[100px] pb-[40px]'>
             <div className="container">
-                <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4'>
+                <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 lg:gap-[250px]'>
                     <div className='flex flex-col gap-[25px] w-[241px] mx-auto mb-[30px]'>
                         <h3 className="font-bold text-[24px] leading-[32px] text-text-color">Get In Touch</h3>
                         <p className="font-normal text-[14px] leading-[20px] text-second-text-color w-[213px]">the quick fox jumps over the lazy dog</p>
                         <div className='flex gap-[20px]'>
-                            <img src={facebook} alt="" />
-                            <img src={instragram} alt="" />
-                            <img src={twitter} alt="" />
-                            <img src={youtube} alt="" />
+                            <img src={facebook} alt={facebook} />
+                            <img src={instragram} alt={instragram} />
+                            <img src={twitter} alt={twitter} />
+                            <img src={youtube} alt={youtube} />
                         </div>
                     </div>
 

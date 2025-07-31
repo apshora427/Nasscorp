@@ -18,7 +18,7 @@ const ContactCard = () => {
                     <ContactFrom />
                 </div>
             </div>
-           
+
         </section>
     )
 }

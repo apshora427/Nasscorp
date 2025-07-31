@@ -113,7 +113,7 @@ const BusinessCardItmes = ({icons,head,para,btn,arr}) => {
         <div className='px-[40px] .icon'>
             {icons}
         </div>
-        <div>
+        <div>  
             <h2 className='head w-[246px] px-[35px] text-[16px] font-normal leading-[24px] text-text-color mt-[20px] mb-[20px]'>{head}</h2>
             <p className='para px-[38px] w-[254px] text-[14px] font-bold leading-[20px] text-second-text-color mb-[20px]'>{para}</p>
         </div>
